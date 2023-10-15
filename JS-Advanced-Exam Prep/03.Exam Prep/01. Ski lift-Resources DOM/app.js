@@ -34,7 +34,7 @@ function solve() {
         h3Element.textContent = `Name: ${firstNameInputElement.value} ${lastNameInputElement.value}`;
 
         let pDateElement = document.createElement('p');
-        pDateElement.textContent = `From date :${fromDateInputElement.value}`;
+        pDateElement.textContent = `From date: ${fromDateInputElement.value}`;
 
         let pDaysCountElement = document.createElement('p');
         pDaysCountElement.textContent = `For ${daysCountInputElement.value} days`;
